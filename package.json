@@ -1,0 +1,30 @@
+{
+  "name": "express-discord-oauth2",
+  "version": "1.0.0",
+  "description": "An example how to use discord's OAuth2 in express (node.js)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silentic-xyz/express-discord-oauth2.git"
+  },
+  "keywords": [
+    "discord",
+    "oauth2",
+    "express"
+  ],
+  "author": "artemD3V",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silentic-xyz/express-discord-oauth2/issues"
+  },
+  "homepage": "https://github.com/Silentic-xyz/express-discord-oauth2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
