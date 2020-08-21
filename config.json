@@ -1,15 +1,16 @@
 {
-    "port": "80",
-    "oauth2": {
-        "redirect_uri": "http://localhost/login/callback",
-        "client_id": "739549201561550888",
-        "secret": "vChO3H5GyeBKBFFkCNR1Axs76402en5Z",
-        "scopes": ["identify"]
+    "port": "80", // Port on which the website will be launched
+    "oauth2": { // oauth2 data
+        "redirect_uri": "http://localhost/login/callback", // Redirect URI
+        "client_id": "Your client's id",
+        "secret": "Your client's secret",
+        "scopes": ["identify"] // Scopes that will be requested on login
+                               // Learn more about it here: https://discord.com/developers/docs/topics/oauth2#shared-resources-oauth2-scopes
     },
     "session": {
         "secret": "youshallnotpass",
         "cookie": {
-            "maxAge": 86400000
+            "maxAge": 86400000 // Max cookie lifetime in milliseconds
         },
         "resave": true,
         "saveUninitialized": false
