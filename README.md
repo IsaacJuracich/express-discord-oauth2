@@ -13,11 +13,13 @@ An example how to use discord's OAuth2 in express (node.js)
   * `client_id`: Your client's ID
   * `secret`: Your client's secret (**NOT TOKEN**)
   * `scopes`: Scopes that will be requested for user
+  
   Discord's OAuth2 API docs: https://discord.com/developers/docs/topics/oauth2
 * `session`:
   * `secret`: Secret code for `express-session`
   * `cookie`:
     * `maxAge`: Max age of cookies in milliseconds
+  
   Other information about `session` config can be found [here](https://www.npmjs.com/package/express-session)
   
 
