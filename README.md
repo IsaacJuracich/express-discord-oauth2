@@ -5,13 +5,12 @@ An example how to use discord's OAuth2 in express (node.js)
 1. Install Node.JS [here](https://nodejs.org/)
 2. To install the dependencies, run `npm install` (All dependencies are already listed in `package.json`)
 
-
 ## Configuration
 * `port`: The port website will use
 * `oauth2`:
-  * `redirect_uri`: URI that you've been redirected after authorization in Discord
-  * `client_id`: Your client's ID
-  * `secret`: Your client's secret (**NOT TOKEN**)
+  * `redirect_uri`: URI that you'll be redirected after authorization in Discord
+  * `client_id`: Your application ID
+  * `secret`: Your application secret (**NOT TOKEN**)
   * `scopes`: Scopes that will be requested for user
   
   Discord's OAuth2 API docs: https://discord.com/developers/docs/topics/oauth2
@@ -24,7 +23,7 @@ An example how to use discord's OAuth2 in express (node.js)
   
 
 ## Running
-Before running: Make sure that you have been changed port, session config and oauth2 data in `config.json`
+Before running: Make sure that you've changed configuration
 
 ----------------
-[!] **Important!** If you don't know how to use Discord's OAuth2 API read more about it here: https://discord.com/developers/docs/topics/oauth2
+[!] **Important!** If you don't know how to use Discord's OAuth2 API, read more about it [here](https://discord.dev/topics/oauth2)
