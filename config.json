@@ -1,9 +1,8 @@
 {
-    "port": "80",
     "oauth2": {
         "redirect_uri": "http://localhost/login/callback", 
-        "client_id": "Your client's id",
-        "secret": "Your client's secret",
+        "client_id": "930180462574444615",
+        "secret": "b-pS8lbdu-heskTzfJtJ32uYb-SZSGMJ",
         "scopes": ["identify"]
     },
     "session": {
